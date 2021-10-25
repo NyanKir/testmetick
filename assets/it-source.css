@@ -464,11 +464,17 @@ select:visited {
   line-height: 55px;
   border-radius: 50px;
   display: inline-block;
-  background-size: 200%, 1px;
-  background-image: linear-gradient(90deg, #FAFF01 0%, #33FF01 50%, #FAFF01);
+  background-image: #ffffff;
+  position: relative;
 }
-.it-up-header-cta-btn a:hover {
-  background-position: 120%;
+.it-up-header-cta-btn span{
+  transition: .3s;
+  position: absolute;
+  transform: translateX(7px);
+}
+.it-up-header-cta-btn a:hover span{
+  transform: translateX(14px);
+  transition: .3s;
 }
 
 .it-header-up-sticky {
@@ -750,12 +756,12 @@ select:visited {
 .keyword_chart {
   position: relative;
   margin: 0 20px;
-  height: 180px;
+  height: 170px;
 }
 
 .keyword_chart svg {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
 }
 
 .keyword_chart-score {
@@ -766,10 +772,10 @@ select:visited {
   left: 0;
   top: -45px;
   bottom: 0;
+  font-size: 14px;
   width: fit-content;
   height: fit-content;
   margin: auto;
-  font-size: 20px;
 }
 
 .keyword_date {
@@ -2307,6 +2313,16 @@ select:visited {
     display: none;
   }
 }
+
+@media screen and (max-width: 540px) {
+  .keyword_wrapper{
+    margin: 0;
+  }
+  .keyword_chart{
+    margin: 0 10px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .keyword_chart svg{
     width: 100px;
@@ -2416,7 +2432,27 @@ select:visited {
     padding: 195px 0px 50px;
   }
 }
+@media screen and (max-width: 400px) {
+  .mention_chart{
+    height: 100px;
+  }
+  .keyword_chart{
+    height: 125px;
+    margin: 0 6px;
+  }
+  .keyword_chart-score{
+    font-size: 10px;
+  }
+  .keyword_chart svg{
+    width: 80px;
+    height: 80px;
+  }
+}
 @media screen and (max-width: 320px) {
+  .mention_wrapper{
+    min-width: 9px;
+    margin: 0 1px;
+  }
   .it-up-header-cta-btn a {
     display: none;
   }
