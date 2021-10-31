@@ -1697,7 +1697,46 @@ select:visited {
 .it-up-blog-slide .owl-dots .owl-dot.active:before {
   opacity: 1;
 }
-
+/*---------------------------------------------------- */
+/*(8.5)- blog area*/
+/*----------------------------------------------------*/
+.it-up-blog-content{
+}
+.blog-carousel{
+  display: flex;
+}
+.color-gray{
+  color: #718096;
+}
+.blog-carousel_item{
+  box-sizing: border-box;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-carousel_item-title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #2d3748;
+  margin: 15px 0;
+}
+.blog-carousel_item-text{
+  font-size: 14px;
+  line-height: 17px;
+}
+.blog-coursel_item-footer{
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog-coursel_item-date{
+  font-size: 12px;
+}
+.blog-coursel_item-read{
+  cursor: pointer;
+  font-weight: 700;
+}
 /*---------------------------------------------------- */
 /*(9)- contact area*/
 /*----------------------------------------------------*/
