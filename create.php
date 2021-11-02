@@ -130,8 +130,8 @@ foreach ($json as $person_name => $person_a) {
                                               <div class="container">
                                                   <div class="row" style="flex-direction: column">
                                                       <div class="blog_header">
-                                                          <h3 class="blog-title">Finibus Bonorum et Malorum</h3>
-                                                          <span class="blog-date">Monday  May 20</span>
+                                                          <h3 class="blog-title">'.$person_a["title"].'</h3>
+                                                          <span class="blog-date">'.$person_a["date"].'</span>
                                                       </div>
                                                           <img src="'.$person_a["img"].'" alt="" class="blog-img">
                                                       <div class="blog_text">
