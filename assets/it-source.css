@@ -1932,7 +1932,7 @@ select:visited {
 }
 
 .slick-track {
-    height: 400px !important;
+    height: 440px !important;
 }
 
 .color-gray {
@@ -1960,6 +1960,7 @@ select:visited {
     font-size: 20px;
     color: #2d3748;
     margin: 15px 0;
+    line-height: 22px;
 }
 
 .blog-carousel_item-text {
@@ -1978,7 +1979,7 @@ select:visited {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 24px;
+    padding-bottom: 14px;
 }
 
 .blog-coursel_item-date {
