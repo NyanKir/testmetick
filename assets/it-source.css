@@ -1950,6 +1950,12 @@ select:visited {
 }
 
 .blog-carousel_item-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
     font-weight: 700;
     font-size: 20px;
     color: #2d3748;
@@ -1957,6 +1963,12 @@ select:visited {
 }
 
 .blog-carousel_item-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
     font-size: 14px;
     line-height: 17px;
 }
@@ -1976,6 +1988,10 @@ select:visited {
 .blog-coursel_item-read {
     cursor: pointer;
     font-weight: 700;
+}
+.blog-coursel_item-read:hover{
+    text-decoration: underline;
+    color: #59afec;
 }
 
 /*---------------------------------------------------- */

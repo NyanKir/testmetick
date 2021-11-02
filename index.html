@@ -826,17 +826,7 @@
         <h2>Блог </h2>
     </div>
 </div>
-<div class="it-up-blog-content blog-carousel">
-
-    <div class="blog-carousel_item">
-        <img src="assets/image 2.png" alt="image">
-        <span class="blog-carousel_item-title px-3">Title</span>
-        <span class="blog-carousel_item-text color-gray px-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</span>
-        <div class="blog-coursel_item-footer px-3">
-            <span class="color-gray blog-coursel_item-date">25 октября 2021</span>
-            <a class="blog-coursel_item-read" href="/posts/">Читать дальше</a>
-        </div>
-    </div>
+<div class="it-up-blog-content blog-carousel" id="blog-carousel">
 </div>
 </section>
 <!-- End of blog section
@@ -970,8 +960,8 @@
 <script src="assets/jquery.counterup.min.js"></script>
 <script src="assets/waypoints.min.js"></script>
 <script src="assets/typer-new.js"></script>
-<script src="assets/it-source.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/it-source.js"></script>
 <script>
     const input = $('#search')[0]
     const inputBtn = $('#search_btn')[0]
@@ -1015,13 +1005,8 @@
         window.location.href = url;
     })
 
+    //
 
-    $('.blog-carousel').slick({
-        slidesToShow: 4,
-        slidesToScroll:4,
-        variableWidth: true,
-        centerMode: true,
-    })
 </script>
 
 </body>

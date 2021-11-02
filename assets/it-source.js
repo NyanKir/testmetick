@@ -4,7 +4,7 @@
 
 File:           JS Core
 Version:        1.0
-Last change:    00/00/00 
+Last change:    00/00/00
 -------------------------------------------------------------------------------- */
 (function() {
 
@@ -12,7 +12,7 @@ Last change:    00/00/00
 
 	var Itsource = {
 		init: function() {
-			this.Basic.init();  
+			this.Basic.init();
 		},
 
 		Basic: {
@@ -30,7 +30,7 @@ Last change:    00/00/00
 				this.ITupSlider();
 				this.ItUpCirleProgress();
 				this.ItUpBlogSlide();
-				
+
 			},
 			preloader: function (){
 				jQuery(window).on('load', function(){
@@ -208,9 +208,9 @@ Last change:    00/00/00
 						var proto = $.circleProgress.defaults,
 						originalDrawEmptyArc = proto.drawEmptyArc;
 
-						proto.emptyThickness = 5; 
+						proto.emptyThickness = 5;
 						proto.drawEmptyArc = function(v) {
-							var oldGetThickness = this.getThickness, 
+							var oldGetThickness = this.getThickness,
 							oldThickness = this.getThickness(),
 							emptyThickness = this.emptyThickness || _oldThickness.call(this),
 							oldRadius = this.radius,
@@ -239,7 +239,7 @@ Last change:    00/00/00
 						fill: {
 							gradient: ['#1ec1f9', ['#0e4ad6', 0.7]],
 							gradientAngle: Math.PI * -0.3
-						}  
+						}
 					});
 
 					$('.first.progress_area').circleProgress({
@@ -304,3 +304,37 @@ Last change:    00/00/00
 	});
 
 })();
+const carousel=$('#blog-carousel')[0]
+async function  f() {
+	const res=await fetch('data.json',{
+		method:'get'
+	})
+	const data= await res.json()
+	return data.posts
+}
+f().then((data)=>{
+	data.forEach((post)=>{
+		if(window.location.pathname.includes(post.path)){
+			return
+		}
+		carousel.innerHTML+=`
+	<div class="blog-carousel_item">
+        <img src="${post.img.replace('../','')}" alt="image">
+        <span class="blog-carousel_item-title px-3">${post.title}</span>
+        <span class="blog-carousel_item-text color-gray px-3">${post.desc[0]}</span>
+        <div class="blog-coursel_item-footer px-3">
+            <span class="color-gray blog-coursel_item-date">${post.date}</span>
+            <a class="blog-coursel_item-read" href="${post.link}">Читать дальше</a>
+        </div>
+    </div>
+`
+	})
+
+	$('#blog-carousel').slick({
+		slidesToShow: 4,
+		slidesToScroll:4,
+		variableWidth: true,
+		centerMode: true,
+	})
+})
+
