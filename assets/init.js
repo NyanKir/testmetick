@@ -27,8 +27,7 @@ f().then((data)=>{
         infinite: false,
         variableWidth: true,
         swipeToSlide: true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        rows: 1,
+        slidesToShow: 1,
+        slidesToScroll: 1,
     })
 })
