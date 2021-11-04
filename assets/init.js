@@ -23,11 +23,22 @@ f().then((data)=>{
     </div>
 `
     })
-    $('#blog-carousel').slick({
-        infinite: false,
-        variableWidth: true,
-        swipeToSlide: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    })
+    if (window.screen.width < 1024) {
+        $('#blog-carousel').slick({
+            infinite: false,
+            variableWidth: true,
+            swipeToSlide: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        })
+    }else{
+        $('#blog-carousel').slick({
+            infinite: false,
+            variableWidth: true,
+            swipeToSlide: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+        })
+    }
+
 })
