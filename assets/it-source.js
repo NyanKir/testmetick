@@ -339,8 +339,5 @@ f().then((data)=>{
 		rows: 1,
 	})
 
-	$('.slick-next').click(function(e){
-		console.log(e.target);
-	})
 })
 
