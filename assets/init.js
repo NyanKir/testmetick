@@ -8,7 +8,6 @@ async function  f() {
 }
 f().then((data)=>{
     data.forEach((post)=>{
-        console.log(post)
         if(window.location.pathname.includes(post.path)){
             return
         }

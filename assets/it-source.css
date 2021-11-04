@@ -23,6 +23,9 @@ Color Code
 ===========*/
 /*(1)- global area*/
 /*----------------------------------------------------*/
+*{
+    scroll-behavior: smooth !important;
+}
 .s-it {
     margin: 0;
     padding: 0;
@@ -1932,9 +1935,16 @@ select:visited {
 }
 
 .slick-track {
+    cursor: alias;
     height: 440px !important;
 }
+.slick-track {
+    cursor: grab;
+}
 
+.slick-track:active {
+    cursor: grabbing;
+}
 .color-gray {
     color: #718096;
 }

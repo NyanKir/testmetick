@@ -100,11 +100,11 @@ foreach ($json as $person_name => $person_a) {
                                                       <div class="it-up-main-menu-wrap clearfix">
                                                           <nav class="it-up-main-navigation float-left ul-li">
                                                               <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
-                                                                  <li><a class="nav-link active" href="/">Главная</a></li>
-                                                                  <li><a class="nav-link" href="/">Функционал</a></li>
-                                                                  <li><a class="nav-link" href="/">Цены</a></li>
-                                                                  <li><a class="nav-link" href="/">Блог</a></li>
-                                                                  <li><a class="nav-link" href="/">Контакты</a></li>
+                                                                <li><a class="nav-link" href="/testmetick#it-up-banner">Главная</a></li>
+                                                                   <li><a class="nav-link" href="/testmetick#it-up-featured">Функционал</a></li>
+                                                                   <li><a class="nav-link" href="/testmetick#it-up-service">Цены</a></li>
+                                                                   <li><a class="nav-link" href="/testmetick#it-up-blog">Блог</a></li>
+                                                                   <li><a class="nav-link" href="/testmetick#it-up-contact">Контакты</a></li>
                                                               </ul>
                                                           </nav>
                                                           <div class="it-up-header-cta-btn float-right text-center">

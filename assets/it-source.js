@@ -331,10 +331,16 @@ f().then((data)=>{
 	})
 
 	$('#blog-carousel').slick({
-		slidesToShow: 4,
-		slidesToScroll:4,
+		infinite: false,
 		variableWidth: true,
-		centerMode: true,
+		swipeToSlide: true,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		rows: 1,
+	})
+
+	$('.slick-next').click(function(e){
+		console.log(e.target);
 	})
 })
 
