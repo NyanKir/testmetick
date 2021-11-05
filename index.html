@@ -32,38 +32,28 @@
             "@context": "https://schema.org/",
             "@type": "Review",
             "itemReviewed": {
-                "@type": "Restaurant",
+                "@type": "Organization",
                 "image": "http://www.example.com/seafood-restaurant.jpg",
                 "name": "Legal Seafood",
-                "servesCuisine": "Seafood",
-                "priceRange": "$$$",
-                "telephone": "1234567",
-                "address" :{
-                    "@type": "PostalAddress",
-                    "streetAddress": "123 William St",
-                    "addressLocality": "New York",
-                    "addressRegion": "NY",
-                    "postalCode": "10038",
-                    "addressCountry": "US"
-                }
+
             },
             "reviewRating": {
                 "@type": "Rating",
-                "ratingValue": "4"
+                "ratingValue": "5"
             },
             "name": "A good seafood place.",
             "author": {
                 "@type": "Person",
                 "name": "Bob Smith"
             },
-            "reviewBody": "The seafood is great.",
             "publisher": {
                 "@type": "Organization",
-                "name": "Washington Times"
+                "name": "MediasScan"
             }
         }
     </script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JVRF8XLJHC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -104,7 +94,9 @@
     <div class="it-up-header-main">
         <div class="container">
             <div class="it-up-brand-logo float-left">
-                <a href="#"><img src="assets/logo1.png" alt=""></a>
+                <a href="#"><amp-img src="assets/logo1.png" alt=""   width="140"
+                                     height="60"
+                                     layout="fixed"></amp-img></a>
             </div>
             <div class="it-up-main-menu-wrap clearfix">
                 <nav class="it-up-main-navigation float-left ul-li">
@@ -137,10 +129,18 @@
 <!-- Start of banner section
 	============================================= -->
 <section id="it-up-banner" class="it-up-banner-section position-relative">
-    <span class="it-up-banner-deco1 position-absolute"> <img src="assets/b-vector1.png" alt=""></span>
-    <span class="it-up-banner-deco2 position-absolute"> <img src="assets/b-shape1.png" alt=""></span>
-    <span class="it-up-banner-deco3 position-absolute"> <img src="assets/b-shape2.png" alt=""></span>
-    <span class="it-up-banner-deco4 position-absolute"> <img src="assets/b-shape3.png" alt=""></span>
+    <span class="it-up-banner-deco1 position-absolute">
+        <amp-img src="assets/b-vector1.png" alt=""   width="400" height="400" layout="fixed"></amp-img>
+    </span>
+    <span class="it-up-banner-deco2 position-absolute">
+        <amp-img src="assets/b-shape1.png" alt="" width="100" height="70" layout="fixed"></amp-img>
+    </span>
+    <span class="it-up-banner-deco3 position-absolute">
+        <amp-img src="assets/b-shape2.png" alt="" width="20" height="110" layout="fixed"></amp-img>
+    </span>
+    <span class="it-up-banner-deco4 position-absolute">
+        <amp-img src="assets/b-shape3.png" alt="" width="95" height="55" layout="fixed"></amp-img>
+    </span>
     <div class="container">
         <div class="search">
             <div>
@@ -509,15 +509,18 @@
                     </div>
                 </div>
                 <!-- <img src="assets/b-m.png" alt=""> -->
-                <span class="it-up-img-deco1 position-absolute" data-parallax="{&quot;x&quot; : -70}"
-                      style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "> <img
-                        src="assets/slack.png" alt=""></span>
-                <span class="it-up-img-deco2 position-absolute" data-parallax="{&quot;y&quot; : -70}"
-                      style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "> <img
-                        src="assets/dimond.png" alt=""></span>
-                <span class="it-up-img-deco3 position-absolute" data-parallax="{&quot;y&quot; : 70}"
-                      style="transform:translate3d(0px, 0.029px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0.029px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "> <img
-                        src="assets/en.png" alt=""></span>
+<!--                <span class="it-up-img-deco1 position-absolute" data-parallax="{&quot;x&quot; : -70}"-->
+<!--                      style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); ">-->
+<!--                    <amp-img-->
+<!--                        src="assets/slack.png" alt=""></amp-img></span>-->
+<!--                <span class="it-up-img-deco2 position-absolute" data-parallax="{&quot;y&quot; : -70}"-->
+<!--                      style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); ">-->
+<!--                    <amp-img-->
+<!--                        src="assets/dimond.png" alt=""></amp-img></span>-->
+<!--                <span class="it-up-img-deco3 position-absolute" data-parallax="{&quot;y&quot; : 70}"-->
+<!--                      style="transform:translate3d(0px, 0.029px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0.029px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); ">-->
+<!--                    <amp-img-->
+<!--                        src="assets/en.png" alt=""></amp-img></span>-->
             </div>
         </div>
     </div>
@@ -528,7 +531,9 @@
 
 <!-- Start of about section
 	============================================= -->
-<section id="it-up-about" class="it-up-about-section">
+<section id="it-up-about" class="it-up-about-section"width="29"
+                                         height="19"
+                                         layout="fixed">
     <div class="container">
         <div class="it-up-about-content">
             <div class="row">
@@ -536,12 +541,18 @@
                     <div class="it-up-about-img position-relative">
                         <span></span>
                         <div class="it-up-about-circle-progress position-absolute text-center pera-content">
-                            <span class="circle-progress-icon"><img src="assets/cp-icon.png" alt=""></span>
+                            <span class="circle-progress-icon">
+                                <amp-img src="assets/cp-icon.png" alt=""   width="29"
+                                         height="19"
+                                         layout="fixed"></amp-img>
+                            </span>
                             <div class="first progress_area position-relative">
                                 <strong>65<span>%</span></strong></div>
                         </div>
                         <div class="it-up-about-img-wrap text-right">
-                            <img src="assets/abt1.jpg" alt="">
+                            <amp-img src="assets/abt1.jpg" alt=""   width="424"
+                                     height="573"
+                                     layout="intrinsic"></amp-img>
                         </div>
                     </div>
                 </div>
@@ -558,7 +569,9 @@
                         <div class="it-up-about-feature clearfix">
                             <div class="it-up-about-ft-item">
                                 <div class="it-up-about-ft-icon text-center float-left">
-                                    <img src="assets/ab-ft1.png" alt="">
+                                    <amp-img src="assets/ab-ft1.png" alt="" width="41"
+                                             height="44"
+                                             layout="fixed"></amp-img>
                                 </div>
                                 <div class="it-up-about-ft-text headline-1 pera-content">
                                     <h3><a href="#">Мониторингова система</a></h3>
@@ -567,7 +580,9 @@
                             </div>
                             <div class="it-up-about-ft-item">
                                 <div class="it-up-about-ft-icon text-center float-left">
-                                    <img src="assets/ab-ft2.png" alt="">
+                                    <amp-img src="assets/ab-ft2.png" alt="" width="35"
+                                             height="45"
+                                             layout="fixed"></amp-img>
                                 </div>
                                 <div class="it-up-about-ft-text headline-1 pera-content">
                                     <h3><a href="#">Осведомленность</a></h3>
@@ -591,9 +606,15 @@
 <!-- Start of Featured section
 	============================================= -->
 <section id="it-up-featured" class="it-up-featured-section position-relative">
-    <span class="it-up-ft-bg position-absolute"><img src="assets/ft-bg.png" alt=""></span>
-    <span class="it-up-ft-shape position-absolute"><img src="assets/ft-shape1.png" alt=""></span>
-    <span class="it-up-ft-shape2 position-absolute"><img src="assets/b-shape3.png" alt=""></span>
+    <span class="it-up-ft-bg position-absolute"><amp-img src="assets/ft-bg.png" alt="" width="687"
+                                                         height="319"
+                                                         layout="fixed"></amp-img></span>
+    <span class="it-up-ft-shape position-absolute"><amp-img src="assets/ft-shape1.png" alt="" width="100"
+                                                            height="20"
+                                                            layout="fixed"></amp-img></span>
+    <span class="it-up-ft-shape2 position-absolute"><amp-img src="assets/b-shape3.png" alt="" width="95"
+                                                             height="55"
+                                                             layout="fixed"></amp-img></span>
     <div class="container">
         <div class="it-up-section-title-2 headline-1 text-center">
             <h2>Функциональность нашей платформы</h2>
@@ -603,7 +624,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="it-up-featured-innerbox text-center">
                         <div class="it-up-featured-icon">
-                            <img src="assets/ft-icon1.png" alt="">
+                            <amp-img src="assets/ft-icon1.png" alt="" width="44"
+                                         height="50"
+                                         layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-featured-text headline-1 pera-content">
                             <h3><a href="#">Узнайте своих клиентов</a></h3>
@@ -614,7 +637,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="it-up-featured-innerbox text-center">
                         <div class="it-up-featured-icon">
-                            <img src="assets/ft-icon2.png" alt="">
+                            <amp-img src="assets/ft-icon2.png" alt="" width="48"
+                                         height="56"
+                                         layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-featured-text headline-1 pera-content">
                             <h3><a href="#">Гибкые настройки </a></h3>
@@ -625,7 +650,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="it-up-featured-innerbox text-center">
                         <div class="it-up-featured-icon">
-                            <img src="assets/ft-icon3.png" alt="">
+                            <amp-img src="assets/ft-icon3.png" alt="" width="46"
+                                         height="64"
+                                         layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-featured-text headline-1 pera-content">
                             <h3><a href="#">Аналитика</a></h3>
@@ -636,7 +663,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="it-up-featured-innerbox text-center">
                         <div class="it-up-featured-icon">
-                            <img src="assets/ft-icon4.png" alt="">
+                            <amp-img src="assets/ft-icon4.png" alt="" width="40"
+                                         height="56"
+                                         layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-featured-text headline-1 pera-content">
                             <h3><a href="#">Статистика</a></h3>
@@ -647,7 +676,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="it-up-featured-innerbox text-center">
                         <div class="it-up-featured-icon">
-                            <img src="assets/ft-icon5.png" alt="">
+                            <amp-img src="assets/ft-icon5.png" alt="" width="48"
+                                         height="52"
+                                         layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-featured-text headline-1 pera-content">
                             <h3><a href="/api/test">API</a></h3>
@@ -658,7 +689,9 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="it-up-featured-innerbox text-center">
                         <div class="it-up-featured-icon">
-                            <img src="assets/ft-icon6.png" alt="">
+                            <amp-img src="assets/ft-icon6.png" alt="" width="36"
+                                         height="57"
+                                         layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-featured-text headline-1 pera-content">
                             <h3><a href="#">Защита</a></h3>
@@ -678,11 +711,21 @@
 <!-- Start of service section
 	============================================= -->
 <section id="it-up-service" class="it-up-service-section position-relative">
-    <span class="it-up-service-shape position-absolute deco1"><img src="assets/s-shape1.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco2"><img src="assets/s-shape2.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco3"><img src="assets/s-shape3.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco4"><img src="assets/s-shape4.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco5"><img src="assets/s-shape5.png" alt=""></span>
+    <span class="it-up-service-shape position-absolute deco1"><amp-img src="assets/s-shape1.png" alt=""   width="105"
+                                                                       height="312"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco2"><amp-img src="assets/s-shape2.png" alt=""  width="23"
+                                                                       height="35"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco3"><amp-img src="assets/s-shape3.png" alt=""  width="23"
+                                                                       height="31"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco4"><amp-img src="assets/s-shape4.png" alt=""  width="16"
+                                                                       height="28"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco5"><amp-img src="assets/s-shape5.png" alt=""  width="11"
+                                                                       height="11"
+                                                                       layout="fixed"></amp-img></span>
     <div class="container">
         <div class="it-up-section-title headline-1 text-center">
             <h2>Тарифные планы</h2>
@@ -726,7 +769,9 @@
 
                                     </div>
                                     <div class="it-up-service-img float-right">
-                                        <img src="assets/standart.png" alt="">
+                                        <amp-img src="assets/standart.png" alt="" width="265"
+                                             height="366"
+                                             layout="intrinsic"></amp-img>
                                     </div>
                                 </div>
                             </div>
@@ -752,7 +797,9 @@
                                                 class=""></i></a>
                                     </div>
                                     <div class="it-up-service-img float-right">
-                                        <img src="assets/prem.png" alt="">
+                                        <amp-img src="assets/prem.png" alt="" width="265"
+                                                 height="366"
+                                                 layout="intrinsic"></amp-img>
                                     </div>
                                 </div>
                             </div>
@@ -780,7 +827,9 @@
                                                 class=""></i></a>
                                     </div>
                                     <div class="it-up-service-img float-right">
-                                        <img src="assets/bisnes.png" alt="">
+                                        <amp-img src="assets/bisnes.png" alt="" width="265"
+                                                 height="366"
+                                                 layout="intrinsic"></amp-img>
                                     </div>
                                 </div>
                             </div>
@@ -797,8 +846,12 @@
 <!-- Start of achivement section
 	============================================= -->
 <section id="it-up-achivement" class="it-up-achivement-section position-relative">
-    <span class="it-up-achive-shape1 position-absolute"><img src="assets/achive-bg.png" alt=""></span>
-    <span class="it-up-achive-shape2 position-absolute"><img src="assets/achive-bg2.png" alt=""></span>
+    <span class="it-up-achive-shape1 position-absolute"><amp-img src="assets/achive-bg.png" alt=""  width="500"
+                                                                 height="400"
+                                                                 layout="intrinsic"></amp-img></span>
+    <span class="it-up-achive-shape2 position-absolute"><amp-img src="assets/achive-bg2.png" alt=""  width="500"
+                                                                 height="400"
+                                                                 layout="intrinsic"></amp-img></span>
     <div class="container">
         <div class="it-up-section-title headline-1 text-center">
             <h2>База мониторинга </h2>
@@ -809,7 +862,9 @@
                     <div class="it-up-achivement-innerbox position-relative text-center">
                         <span class="inner-border"></span>
                         <div class="it-up-achivement-icon">
-                            <img src="assets/ach-icon1.png" alt="">
+                            <amp-img src="assets/ach-icon1.png" alt="" width="62"
+                                     height="62"
+                                     layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-achivement-text pera-content headline-1">
                             <h3 class="counter">20000</h3><strong>+</strong>
@@ -821,7 +876,9 @@
                     <div class="it-up-achivement-innerbox position-relative text-center">
                         <span class="inner-border"></span>
                         <div class="it-up-achivement-icon">
-                            <img src="assets/ach-icon2.png" alt="">
+                            <amp-img src="assets/ach-icon2.png" alt="" width="62"
+                                     height="62"
+                                     layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-achivement-text pera-content headline-1">
                             <h3 class="counter">15000</h3><strong>+</strong>
@@ -833,7 +890,9 @@
                     <div class="it-up-achivement-innerbox position-relative text-center">
                         <span class="inner-border"></span>
                         <div class="it-up-achivement-icon">
-                            <img src="assets/ach-icon3.png" alt="">
+                            <amp-img src="assets/ach-icon3.png" alt="" width="62"
+                                     height="62"
+                                     layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-achivement-text pera-content headline-1">
                             <h3 class="counter">40000</h3><strong>+</strong>
@@ -845,7 +904,9 @@
                     <div class="it-up-achivement-innerbox position-relative text-center">
                         <span class="inner-border"></span>
                         <div class="it-up-achivement-icon">
-                            <img src="assets/ach-icon4.png" alt="">
+                            <amp-img src="assets/ach-icon4.png" alt=""width="62"
+                                     height="62"
+                                     layout="fixed"></amp-img>
                         </div>
                         <div class="it-up-achivement-text pera-content headline-1">
                             <h3 class="counter">5000</h3><strong>+</strong>
@@ -863,11 +924,22 @@
 <!-- Start of blog section
     ============================================= -->
 <section id="it-up-blog" class="it-up-contact-section position-relative">
-<span class="it-up-service-shape position-absolute deco1"><img src="assets/s-shape1.png" alt=""></span>
-<span class="it-up-service-shape position-absolute deco2"><img src="assets/s-shape2.png" alt=""></span>
-<span class="it-up-service-shape position-absolute deco3"><img src="assets/s-shape3.png" alt=""></span>
-<span class="it-up-service-shape position-absolute deco4"><img src="assets/s-shape4.png" alt=""></span>
-<span class="it-up-service-shape position-absolute deco5"><img src="assets/s-shape5.png" alt=""></span>
+        <span class="it-up-service-shape position-absolute deco1"><amp-img src="assets/s-shape1.png" alt=""   width="105"
+                                                                           height="312"
+                                                                           layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco2"><amp-img src="assets/s-shape2.png" alt=""  width="23"
+                                                                       height="35"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco3"><amp-img src="assets/s-shape3.png" alt=""  width="23"
+                                                                       height="31"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco4"><amp-img src="assets/s-shape4.png" alt=""  width="16"
+                                                                       height="28"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco5"><amp-img src="assets/s-shape5.png" alt=""  width="11"
+                                                                       height="11"
+                                                                       layout="fixed"></amp-img></span>
+
 <div class="container">
     <div class="it-up-section-title-2 headline-1 text-center">
         <h2>Блог </h2>
@@ -882,11 +954,21 @@
 <!-- Start of contact section
 	============================================= -->
 <section id="it-up-contact" class="it-up-contact-section position-relative">
-    <span class="it-up-service-shape position-absolute deco1"><img src="assets/s-shape1.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco2"><img src="assets/s-shape2.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco3"><img src="assets/s-shape3.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco4"><img src="assets/s-shape4.png" alt=""></span>
-    <span class="it-up-service-shape position-absolute deco5"><img src="assets/s-shape5.png" alt=""></span>
+        <span class="it-up-service-shape position-absolute deco1"><amp-img src="assets/s-shape1.png" alt=""   width="105"
+                                                                           height="312"
+                                                                           layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco2"><amp-img src="assets/s-shape2.png" alt=""  width="23"
+                                                                       height="35"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco3"><amp-img src="assets/s-shape3.png" alt=""  width="23"
+                                                                       height="31"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco4"><amp-img src="assets/s-shape4.png" alt=""  width="16"
+                                                                       height="28"
+                                                                       layout="fixed"></amp-img></span>
+    <span class="it-up-service-shape position-absolute deco5"><amp-img src="assets/s-shape5.png" alt=""  width="11"
+                                                                       height="11"
+                                                                       layout="fixed"></amp-img></span>
     <div class="container">
         <div class="it-up-section-title-2 headline-1 text-center">
             <h2>Связаться с нами </h2>
@@ -895,13 +977,15 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="it-up-contact-img position-relative">
-                        <img src="assets/cn-bg.jpg" alt="">
-                        <span class="contact-shape position-absolute" data-parallax="{&quot;y&quot; : -50}"
-                              style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "><img
-                                src="assets/cn-sh1.png" alt=""></span>
-                        <div class="it-up-contact-text text-center headline-1">
-                            <img src="assets/marker.png" alt="">
-                        </div>
+                        <amp-img src="assets/cn-bg.jpg" alt="" width="394"
+                                 height="480"
+                                 layout="intrinsic"></amp-img>
+<!--                        <span class="contact-shape position-absolute" data-parallax="{&quot;y&quot; : -50}"-->
+<!--                              style="transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); -webkit-transform:translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1); "><img-->
+<!--                                src="assets/cn-sh1.png" alt=""></span>-->
+<!--                        <div class="it-up-contact-text text-center headline-1">-->
+<!--                            <img src="assets/marker.png" alt="">-->
+<!--                        </div>-->
                     </div>
                 </div>
                 <div class="col-lg-7">

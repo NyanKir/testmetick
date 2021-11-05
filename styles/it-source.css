@@ -1156,6 +1156,7 @@ select:visited {
 }
 
 .it-up-about-circle-progress {
+    z-index: 1;
     top: 0;
     left: 0;
     width: 205px;
