@@ -319,7 +319,9 @@ f().then((data)=>{
 		}
 		carousel.innerHTML+=`
 	<div class="blog-carousel_item">
-        <img src="${post.img.replace('../','')}" alt="image">
+        <amp-img src="${post.img.replace('../','')}" alt="image" 
+                                             height="190"
+                                             layout="fixed-height"></amp-img>
         <span class="blog-carousel_item-title px-3">${post.title}</span>
         <span class="blog-carousel_item-text color-gray px-3">${post.desc[0]}</span>
         <div class="blog-coursel_item-footer px-3">
