@@ -60,16 +60,16 @@ Last change:    00/00/00
 					}
 				})
 				$('.it-up-main-navigation ul li a').on("click", function(){
-					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-						var target = $(this.hash);
-						target = target.length ? target : $('[name="DCSext.Level"' + this.hash.slice(1) +']');
-						if (target.length) {
-							$('html, body').animate({
-								scrollTop: target.offset().top -50
-							}, 1000);
-							return false;
-						}
-					}
+					// if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					// 	var target = $(this.hash);
+					// 	target = target.length ? target : $('[name="DCSext.Level"' + this.hash.slice(1) +']');
+					// 	if (target.length) {
+					// 		$('html, body').animate({
+					// 			scrollTop: target.offset().top -50
+					// 		}, 1000);
+					// 		return false;
+					// 	}
+					// }
 				});
 			},
 			ItUpMobileMenu: function (){
@@ -331,7 +331,6 @@ f().then((data)=>{
     </div>
 `
 	})
-	console.log(window.screen)
 	if (window.screen.width < 1024) {
 		console.log('re')
 		$('#blog-carousel').slick({

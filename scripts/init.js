@@ -13,7 +13,7 @@ f().then((data)=>{
         }
         carousel.innerHTML+=`
 	<div class="blog-carousel_item">
-	        <amp-img src="${post.img.replace('../','')}" alt="image" 
+        <amp-img src="${post.img}" alt="image" 
                                              height="190"
                                              layout="fixed-height"></amp-img>
         <span class="blog-carousel_item-title px-3">${post.title}</span>
