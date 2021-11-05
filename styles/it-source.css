@@ -1213,6 +1213,9 @@ select:visited {
 }
 
 .it-up-about-ft-item .it-up-about-ft-icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
     width: 60px;
     height: 60px;
     line-height: 70px;
@@ -1344,6 +1347,9 @@ select:visited {
 }
 
 .it-up-featured-innerbox .it-up-featured-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80px;
     height: 80px;
     margin: 0 auto;
