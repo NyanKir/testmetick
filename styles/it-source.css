@@ -499,7 +499,7 @@ select:visited {
     line-height: 55px;
     border-radius: 50px;
     display: inline-block;
-    background-image: #ffffff;
+    background-color: #ffffff;
     position: relative;
 }
 
@@ -927,6 +927,7 @@ select:visited {
 }
 
 .search {
+    display: flex;
     z-index: 9999999;
     width: 100%;
     position: absolute;
@@ -950,6 +951,7 @@ select:visited {
 }
 
 .search_label {
+    width: 100%;
     margin-bottom: 0;
     display: flex;
 }

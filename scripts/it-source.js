@@ -329,6 +329,7 @@ f().then((data)=>{
     </div>
 `
 	})
+	console.log(window.screen)
 	if (window.screen.width < 1024) {
 		console.log('re')
 		$('#blog-carousel').slick({
