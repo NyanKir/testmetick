@@ -148,19 +148,19 @@ foreach ($json as $person_name => $person_a) {
 
                                           <!-- Start of blog section
                                               ============================================= -->
-                                          <section class=" position-relative">
+                                          <div class="position-relative">
 
                                               <div class="it-up-blog-content blog-carousel" id="blog-carousel">
 
                                               </div>
-                                          </section>
+                                          </div>
                                           <!-- End of blog section
                                               ============================================= -->
 
 
                                           <!-- Start of footer section
                                           	============================================= -->
-                                          <section id="it-up-footer" class="it-up-footer-section position-relative">
+                                          <div id="it-up-footer" class="it-up-footer-section position-relative">
                                               <div class="container">
                                                   <div class="it-up-footer-content-wrap">
                                                       <div class="row">
@@ -204,7 +204,7 @@ foreach ($json as $person_name => $person_a) {
                                                       <p>© 2021 Gobeside LCC. All rights reserved.</p>
                                                   </div>
                                               </div>
-                                          </section>
+                                          </div>
                                           <!-- End of footer section
                                           	============================================= -->
 
@@ -223,7 +223,7 @@ foreach ($json as $person_name => $person_a) {
                                           <script src="../scripts/waypoints.min.js"></script>
                                           <script src="../scripts/typer-new.js"></script>
                                           <script src="../scripts/init.js"></script>
-                                          <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+                                          <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
                                           </body>
                                           </html>');
 }
