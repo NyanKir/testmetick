@@ -49,7 +49,7 @@ foreach ($json as $person_name => $person_a) {
                                                     content="	media_scan_bot, monitoring, news monitoring, Медиа сканер, медиа скан, медиа мониторинг, media monitoring bot, media scan bot, мониторинг телеграм, мониторинг сми, мониторинг бот, телеграм бот мониторинг сми, сми мониторинг, мониторинг">
                                               <!-- Mobile Specific Meta -->
                                               <meta name="viewport" content="width=device-width, initial-scale=1">
-                                              <link rel="shortcut icon" href="../styles/logo_h.png" type="image/x-icon">
+                                              <link rel="shortcut icon" href="../assets/logo_h.png" type="image/x-icon">
                                               <link rel="stylesheet" href="../styles/owl.carousel.css">
                                               <link rel="stylesheet" href="../styles/fonts/css/all.css">
                                               <link rel="stylesheet" href="../styles/flaticon.css">
@@ -218,7 +218,7 @@ foreach ($json as $person_name => $person_a) {
                                           <script src="../scripts/wow.min.js"></script>
                                           <script src="../scripts/parallax-scroll.js"></script>
                                           <script src="../scripts/circle-progress.js"></script>
-                                          <script src="../script/pagenav.js"></script>
+                                          <script src="../scripts/pagenav.js"></script>
                                           <script src="../scripts/jquery.counterup.min.js"></script>
                                           <script src="../scripts/waypoints.min.js"></script>
                                           <script src="../scripts/typer-new.js"></script>
