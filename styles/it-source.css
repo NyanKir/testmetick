@@ -2533,7 +2533,7 @@ select:visited {
 
 @media screen and (max-width: 1950px) {
     .it-up-footer-section:before {
-        display: block;
+        /*display: block;*/
     }
 
     .it-up-footer-section {

@@ -7,10 +7,17 @@
         "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+      "titleUA": "(UA)Права ньюйоркцев на оплачиваемый отпуск расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first-day.html",
       "img": "../assets/tea.jpg",
-      "path": "posts/first-day.html"
+      "path": "posts/first-day.html",
+      "pathUA": "ua/posts/first-day.html"
     },
     {
       "title": "Все частные компании в Нью-Йорке теперь обязаны предоставлять сотрудникам пенсионные планы",
@@ -19,10 +26,17 @@
         "\nНовый закон требует, чтобы предприятия частного сектора, которые в настоящее время не предоставляют своим сотрудникам пенсионных планов, автоматически регистрировали их в сберегательном плане штата Secure Choice.",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+      "titleUA": "(UA)Права ньюйоркцев на оплачиваемый отпуск расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 декабря 2021",
       "link": "/testmetick/posts/first2-day.html",
       "img": "../assets/car.jpg",
-      "path": "posts/first2-day.html"
+      "path": "posts/first2-day.html",
+      "pathUA": "ua/posts/first2-day.html"
     },
     {
       "title": "За слишком шумный автомобиль в Нью-Йорке теперь можно получить штраф в $1000",
@@ -31,10 +45,17 @@
         "«Каждый житель Нью-Йорка заслуживает того, чтобы чувствовать себя безопасно и комфортно в своем районе, в том числе и в отношении чрезмерно шумных транспортных средств на наших улицах, – сказала губернатор. – Этот закон удерживает водителей от установки незаконного автомобильного оборудования, которое приводит к опасным уровням шума, способным спровоцировать потерю слуха и увеличение выбросов в атмосферу».",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+      "titleUA": "(UA)Права ньюйоркцев на оплачиваемый отпуск расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first3-day.html",
       "img": "../assets/woman.jpg",
-      "path": "posts/first3-day.html"
+      "path": "posts/first3-day.html",
+      "pathUA": "ua/posts/first3-day.html"
     },
     {
       "title": "Де Блазио подписал закон о защите работников профессий, которые часто выбирают русскоязычные",
@@ -43,10 +64,17 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+      "titleUA": "(UA)Права ньюйоркцев на оплачиваемый отпуск расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first4-day.html",
       "img": "../assets/chel.jpg",
-      "path": "posts/first4-day.html"
+      "path": "posts/first4-day.html",
+      "pathUA": "ua/posts/first4-day.html"
     },    {
       "title": "Five",
       "desc": [
@@ -54,10 +82,17 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+      "titleUA": "(UA)Права ньюйоркцев на оплачиваемый отпуск расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first5-day.html",
       "img": "../assets/chel.jpg",
-      "path": "posts/first5-day.html"
+      "path": "posts/first5-day.html",
+      "pathUA": "ua/posts/first5-day.html"
     },
     {
       "title": "Six",
@@ -66,10 +101,17 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+            "titleUA": "(UA)Six отпуск расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first6-day.html",
       "img": "../assets/image%202.png",
-      "path": "posts/first6-day.html"
+      "path": "posts/first6-day.html",
+      "pathUA": "ua/posts/first6-day.html"
     },
     {
       "title": "Seven",
@@ -78,10 +120,17 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+            "titleUA": "(UA)Права Seven: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first7-day.html",
       "img": "../assets/image%202.png",
-      "path": "posts/first7-day.html"
+      "path": "posts/first7-day.html",
+      "pathUA": "ua/posts/first7-day.html"
     },
     {
       "title": "Eight",
@@ -90,10 +139,17 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+            "titleUA": "(UA) Права Eight: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first8-day.html",
       "img": "../assets/image%202.png",
-      "path": "posts/first8-day.html"
+      "path": "posts/first8-day.html",
+      "pathUA": "ua/posts/first8-day.html"
     },
     {
       "title": "Nine",
@@ -102,10 +158,17 @@
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n",
         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
       ],
+            "titleUA": "(UA) Nine расширили: кому и зачем теперь можно его брать",
+      "descUA": [
+        "(UA)1 ноября губернатор Кэти Хокул подписала закон, принятый Законодательным собранием штата в начале этого года. Закон расширяет причины, по которым можно уйти в отпуск без потери оплаты.",
+        "“Люди думают об оплачиваемом отпуске по семейным причинам (Paid Family Leave) как об отпуске по уходу за младенцем… Но он также очень широко используется людьми, заботящимися о старших родственниках, и теперь они смогут позаботиться о своих старших братьях и сестрах”, – сказала Хокул.",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea sed veritatis! Aliquam consequatur numquam optio quaerat rem sequi tempora temporibus? Alias animi dignissimos ducimus facilis modi neque perferendis sapiente?\n"
+      ],
       "date": "25 ноября 2021",
       "link": "/testmetick/posts/first9-day.html",
       "img": "../assets/image%202.png",
-      "path": "posts/first9-day.html"
+      "path": "posts/first9-day.html",
+      "pathUA": "ua/posts/first9-day.html"
     }
 
   ]
