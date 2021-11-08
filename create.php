@@ -183,8 +183,8 @@ foreach ($json as $person_name => $person_a) {
                                                           <div class="col-lg-3 col-md-6">
                                                               <div class="it-up-footer-widget headline-1 pera-content">
                                                                   <div class="it-up-footer-logo-widget it-up-headline pera-content">
-                                                                      <p><a href="#">Facebook</a></p>
-                                                                      <p><a href="#">Instagram</a></p>
+                            <p><a href="https://www.facebook.com/mediascan.bot">Facebook</a></p>
+                            <p><a href="https://www.instagram.com/mediascan.bot/">Instagram</a></p>
                                                                   </div>
                                                               </div>
                                                           </div>
