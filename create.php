@@ -265,7 +265,7 @@ foreach ($json as $person_name => $person_a) {
                                                     <!--Open Graph-->
                                                     <meta property="og:title" content="MediasScan"/>
                                                     <meta property="og:type" content="website"/>
-                                                    <meta property="og:url" content="'.str_replace("'/testmetick/'","/testmetick/ua/",$person_a["title"]).'"/>
+                                                    <meta property="og:url" content="https://nyankir.github.io'.str_replace("'/testmetick/'","/testmetick/ua/",$person_a["link"]).'"/>
                                                     <meta property="og:image"
                                                           content="https://ic.wampi.ru/2021/11/08/banner.jpg"/>
                                                     <meta property="og:description"
