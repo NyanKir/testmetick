@@ -2946,7 +2946,10 @@ select:visited {
     animation-direction: reverse;
     animation-duration: 15s;
 }
-
+.animation-duration-10{
+    animation-direction: normal;
+    animation-duration: 10s;
+}
 @keyframes circle {
     0% {
         transform: rotate(0deg);
