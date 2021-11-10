@@ -57,7 +57,7 @@ foreach ($json as $person_name => $person_a) {
                                               <meta property="og:type" content="website"/>
                                               <meta property="og:url" content=""/>
                                               <meta property="og:image"
-                                                    content="https://ic.wampi.ru/2021/11/08/banner.jpg"/>
+                                                    content="'.$canonical.'/assets/'.$person_a["img"].'"/>
                                               <meta property="og:description"
                                                     content="'.$person_a["title"].'"/>
                                               <meta property="og:locale" content="ru"/>
@@ -265,7 +265,7 @@ foreach ($json as $person_name => $person_a) {
                                               <meta property="og:type" content="website"/>
                                               <meta property="og:url" content=""/>
                                               <meta property="og:image"
-                                                    content="https://ic.wampi.ru/2021/11/08/banner.jpg"/>
+                                                    content="'.$canonicalUA.'/assets/'.$person_a["img"].'"/>
                                               <meta property="og:description"
                                                     content="'.$person_a["titleUA"].'"/>
                                               <meta property="og:locale" content="ru"/>
