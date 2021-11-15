@@ -51,11 +51,11 @@ foreach ($json as $person_name => $person_a) {
                                               <title>'.$person_a["title"].'</title>
                                               <meta name="description" content="'.$person_a["title"].'">
                                               <meta name="keywords"
-                                                    content="	media_scan_bot, monitoring, news monitoring, Медиа сканер, медиа скан, медиа мониторинг, media monitoring bot, media scan bot, мониторинг телеграм, мониторинг сми, мониторинг бот, телеграм бот мониторинг сми, сми мониторинг, мониторинг">
+                                                    content="media_scan_bot, monitoring, news monitoring, Медиа сканер, медиа скан, медиа мониторинг, media monitoring bot, media scan bot, мониторинг телеграм, мониторинг сми, мониторинг бот, телеграм бот мониторинг сми, сми мониторинг, мониторинг">
                                               <!--Open Graph-->
                                               <meta property="og:title" content="MediasScan"/>
                                               <meta property="og:type" content="website"/>
-                                              <meta property="og:url" content=""/>
+                                              <meta property="og:url" content="'.$person_a["title"].'"/>
                                               <meta property="og:image"
                                                     content="'.$canonical.'assets/'.$person_a["img"].'"/>
                                               <meta property="og:description"
@@ -263,7 +263,7 @@ foreach ($json as $person_name => $person_a) {
                                               <!--Open Graph-->
                                               <meta property="og:title" content="MediasScan"/>
                                               <meta property="og:type" content="website"/>
-                                              <meta property="og:url" content=""/>
+                                              <meta property="og:url" content="'.$person_a["titleUA"].'"/>
                                               <meta property="og:image"
                                                     content="'.$canonicalUA.'assets/'.$person_a["img"].'"/>
                                               <meta property="og:description"
