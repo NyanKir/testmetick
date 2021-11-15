@@ -21,7 +21,7 @@ f().then((data)=>{
                 <span class="blog-carousel_item-text color-gray px-3">${post.desc[0]}</span>
                 <div class="blog-coursel_item-footer px-3">
                     <span class="color-gray blog-coursel_item-date">${post.date}</span>
-                    <a class="blog-coursel_item-read" href="/testmetric/ua/posts/${post.folderName}/">Читать дальше</a>
+                    <a class="blog-coursel_item-read" href="/testmetick/ua/posts/${post.folderName}/">Читать дальше</a>
                 </div>
             </div>
         `
