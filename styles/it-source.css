@@ -1936,6 +1936,7 @@ select:visited {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 20px;
+    white-space: break-spaces;
 }
 
 .slick-initialized .slick-slide {
