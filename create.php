@@ -115,7 +115,7 @@ foreach ($json as $person_name => $person_a) {
                                               <div class="it-up-header-main">
                                                   <div class="container">
                                                       <div class="it-up-brand-logo float-left">
-                                                          <a href="#"><img src="../../assets/logo1.png" alt=""></a>
+                                                          <a href="'.$canonical.'"><img src="../../assets/logo1.png" alt=""></a>
                                                       </div>
                                                       <div class="it-up-main-menu-wrap clearfix">
                                                           <nav class="it-up-main-navigation float-left ul-li">
@@ -323,7 +323,7 @@ foreach ($json as $person_name => $person_a) {
                                               <div class="it-up-header-main">
                                                   <div class="container">
                                                       <div class="it-up-brand-logo float-left">
-                                                          <a href="#">
+                                                          <a href="'.$canonicalUA.'">
                                                               <amp-img src="../../../assets/logo1.png"" alt="" width="140"
                                                                        height="60"
                                                                        layout="fixed"></amp-img>
